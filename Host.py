@@ -183,9 +183,10 @@ def key_to_output(keys):
 
 
 HeaderSize = 10
-print(socket.gethostname())
+HostName = socket.gethostname()
+print(HostName)
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-s.bind(('192.168.10.6',90))
+s.bind((IP Address,Port))
 s.listen()
 while True:
     clientSocket, address = s.accept()
