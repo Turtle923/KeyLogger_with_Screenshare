@@ -185,7 +185,7 @@ while True:
         msg_len = 0
         new_msg = True
         while True:
-            msg = s.recv(1024)
+            msg = s.recv(4096)
             if new_msg:
                 s.send(bytes("Message Received","utf-8"))
                 msg_len = msg[:HeaderSize]
