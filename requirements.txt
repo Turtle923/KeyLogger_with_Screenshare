@@ -1,0 +1,5 @@
+pickle
+numpy
+opencv-python
+pywin32
+pillow
