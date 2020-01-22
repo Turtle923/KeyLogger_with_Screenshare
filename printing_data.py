@@ -5,7 +5,7 @@ import sys
 
 
 
-lines = np.load("2020-01-19__28.361.npy",allow_pickle=True)
+lines = np.load(File Name,allow_pickle=True)
 
 for data in lines:
 
