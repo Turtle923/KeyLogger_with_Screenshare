@@ -9,7 +9,7 @@ import numpy as np
 HeaderSize = 10
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-s.connect(('192.168.10.6',90))
+s.connect((IP Address,PORT))
 
 
 def check_keys(key):
